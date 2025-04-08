@@ -1,0 +1,4 @@
+# Environment variables
+.env 
+# Project exclude paths
+/target/

@@ -1,0 +1,16 @@
+{
+  "action": "opened",
+  "number": 123,
+  "pull_request": {
+    "id": 456,
+    "title": "Test PR for CodeCritic-J",
+    "user": {
+      "login": "testuser"
+    },
+    "body": "This is a test pull request"
+  },
+  "repository": {
+    "full_name": "yourusername/CodeCritic-J",
+    "name": "CodeCritic-J"
+  }
+} 

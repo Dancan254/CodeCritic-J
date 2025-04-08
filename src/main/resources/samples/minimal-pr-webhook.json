@@ -1,0 +1,16 @@
+{
+  "action": "opened",
+  "number": 2,
+  "pull_request": {
+    "id": 456,
+    "title": "Local development",
+    "user": {
+      "login": "Dancan254"
+    },
+    "body": "This is a test pull request"
+  },
+  "repository": {
+    "full_name": "Dancan254/book-social-network",
+    "name": "book-social-network"
+  }
+} 
