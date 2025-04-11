@@ -23,10 +23,10 @@ cp -r src/main/resources/samples release/samples
 
 # Create a simple .env template
 cat > release/.env.template << EOF
-GITHUB_TOKEN=your_github_token_here
-GITHUB_WEBHOOK_SECRET=your_webhook_secret_here
-AZURE_AI_FOUNDRY_ENDPOINT=your_azure_endpoint_here
-AZURE_AI_FOUNDRY_KEY=your_azure_key_here
+GITHUB_TOKEN=github_token_here
+GITHUB_WEBHOOK_SECRET=webhook_secret_here
+AZURE_AI_FOUNDRY_ENDPOINT=azure_endpoint_here
+AZURE_AI_FOUNDRY_KEY=azure_key_here
 AZURE_AI_FOUNDRY_DEPLOYMENT_ID=gpt-4
 EOF
 
