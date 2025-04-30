@@ -9,8 +9,10 @@ import dev.langchain4j.model.openai.OpenAiChatModel;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
+@PropertySource(value = "classpath:.env", ignoreResourceNotFound = true)
 public class LangChain4jConfig {
 
     private static final Logger logger = LoggerFactory.getLogger(LangChain4jConfig.class);

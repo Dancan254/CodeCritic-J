@@ -9,11 +9,13 @@ import org.slf4j.LoggerFactory;
 import com.azure.ai.openai.OpenAIClient;
 import com.azure.ai.openai.OpenAIClientBuilder;
 import com.azure.core.credential.AzureKeyCredential;
+import org.springframework.context.annotation.PropertySource;
 
 /**
  * Configuration for Azure AI Foundry using the Azure SDK
  */
 @Configuration
+@PropertySource(value = "classpath:.env", ignoreResourceNotFound = true)
 public class AzureAIConfig {
     
     private static final Logger logger = LoggerFactory.getLogger(AzureAIConfig.class);
